@@ -66,14 +66,25 @@ export default function HomePage() {
       </Head>
 
       {/* Google Analytics Scripts */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QQHCD3Q2XX"></script>
-      <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+      <Script
+        strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=G-QQHCD3Q2XX"
+      />
+      <Script
+        id="ga-init"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'G-QQHCD3Q2XX');
-      </script>
+            gtag('config', 'G-QQHCD3Q2XX', {
+              page_path: window.location.pathname,
+            });
+          `,
+        }}
+      />
       <div className="flex flex-col py-8 px-4 md:px-8 lg:px-16">
         {/* Main Heading */}
         <h1 className="text-center text-4xl md:text-5xl font-extrabold text-gray-800 mb-8">
