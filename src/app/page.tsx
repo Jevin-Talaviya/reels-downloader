@@ -23,7 +23,7 @@ export default function HomePage() {
         <meta property="og:title" content="Instagram Video Downloader - Free Instagram Downloader | No SignUp" />
         <meta property="og:description" content="Quickly, Freely and easily download Instagram reels and videos with our tool." />
         <meta property="og:image" content="/path/to/your/preview-image.jpg" />
-        <meta property="og:url" content="https://snapsave.tech" />
+        <meta property="og:url" content="https://reelsdownloader.tech" />
         <meta property="og:type" content="website" />
 
         {/* Twitter Card Meta Tags */}
@@ -33,7 +33,7 @@ export default function HomePage() {
         <meta name="twitter:image" content="/path/to/your/preview-image.jpg" />
 
         {/* Canonical Link to Prevent Duplicate Content */}
-        <link rel="canonical" href="https://snapsave.tech" />
+        <link rel="canonical" href="https://reelsdownloader.tech" />
 
         {/* Viewport Meta Tag for Responsive Design */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -52,12 +52,12 @@ export default function HomePage() {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              "url": "https://snapsave.tech/",
+              "url": "https://reelsdownloader.tech/",
               "name": "Instagram Video Downloader",
               "description": "Quickly and easily download Instagram reels and videos with our tool.",
               "potentialAction": {
                 "@type": "SearchAction",
-                "target": "https://snapsave.tech/?s={search_term_string}",
+                "target": "https://reelsdownloader.tech/?s={search_term_string}",
                 "query-input": "required name=search_term_string"
               }
             }),
