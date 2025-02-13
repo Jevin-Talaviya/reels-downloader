@@ -9,15 +9,17 @@ export default function HomePage() {
     <>
       <Head>
         {/* Basic SEO Meta Tags */}
-        <title>Instagram Video Downloader - Easily Download Instagram Reels</title>
+        <title>Instagram Video Downloader - Free Instagram Downloader | No SignUp</title>
         <meta
-          name="description"
-          content="Use our Instagram video downloader tool to quickly and easily download Instagram reels. Save your favorite content directly to your device."
+        name="description"
+        content="Use our Instagram video downloader tool to quickly and easily download Instagram reels. Save your favorite content directly to your device."
         />
+
         <meta
-          name="keywords"
-          content="Instagram free reel download, Instagram video downloader, Instagram reel saver, download Instagram reels, Instagram video saving, Instagram free video downloader"
+        name="keywords"
+        content="Instagram free reel download, Instagram video downloader, Instagram reel saver, download Instagram reels, Instagram video saving, Instagram free video downloader"
         />
+
 
         {/* Open Graph Meta Tags for Social Media */}
         <meta property="og:title" content="Instagram Video Downloader - Free Instagram Downloader | No SignUp" />
@@ -26,11 +28,13 @@ export default function HomePage() {
         <meta property="og:url" content="https://reelsdownloader.tech" />
         <meta property="og:type" content="website" />
 
+
         {/* Twitter Card Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Instagram Video Downloader - Easily Download Instagram Reels" />
         <meta name="twitter:description" content="Quickly and easily download Instagram reels and videos with our tool." />
         <meta name="twitter:image" content="/path/to/your/preview-image.jpg" />
+
 
         {/* Canonical Link to Prevent Duplicate Content */}
         <link rel="canonical" href="https://reelsdownloader.tech" />
@@ -49,20 +53,21 @@ export default function HomePage() {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "WebSite",
-              "url": "https://reelsdownloader.tech/",
-              "name": "Instagram Video Downloader",
-              "description": "Quickly and easily download Instagram reels and videos with our tool.",
-              "potentialAction": {
-                "@type": "SearchAction",
-                "target": "https://reelsdownloader.tech/?s={search_term_string}",
-                "query-input": "required name=search_term_string"
-              }
-            }),
-          }}
-        />
+           __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "url": "https://reelsdownloader.tech/",
+          "name": "Instagram Video Downloader",
+          "description": "Quickly and easily download Instagram reels and videos with our tool.",
+          "potentialAction": {
+                          "@type": "SearchAction",
+                          "target": "https://reelsdownloader.tech/?s={search_term_string}",
+                          "query-input": "required name=search_term_string"
+                             }
+                  }),
+            }}
+      />
+
       </Head>
 
       {/* Google Analytics Scripts */}
