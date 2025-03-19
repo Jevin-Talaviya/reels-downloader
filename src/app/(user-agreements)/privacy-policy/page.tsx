@@ -6,7 +6,7 @@ const PrivacyPolicyPage = () => {
       <section className="text-sm">
         <h2 className="mb-2 text-xl font-semibold">1. Introduction</h2>
         <p className="mb-2">
-          <span className="font-semibold">1.1.</span> This Privacy & Policy
+          <span className="font-semibold">1.1.</span> This Privacy Policy
           (Policy) informs users that the website
           <span className="text-gray-900 dark:text-gray-500">
             {" "}
